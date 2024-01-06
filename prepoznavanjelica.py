@@ -3,7 +3,7 @@ import cv2
 
 def PrepoznavanjeSlike():
     backend = "opencv"
-    imeslike = 
+    imeslike = #bilo koja od 4 slike#
     slika = cv2.imread(imeslike)
     slika = cv2.resize(slika, (720, 640))
     sivaslika = cv2.cvtColor(slika, cv2.COLOR_BGR2GRAY)
